@@ -1,0 +1,32 @@
+server:
+    port: 9090
+    context-path: #/xiaolang/
+
+logging:
+    level:
+        tk.mybatis: TRACE
+
+druid:
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: root
+    initial-size: 1
+    min-idle: 1
+    max-active: 20
+    test-on-borrow: true
+  
+mybatis:
+    type-aliases-package: com.pxtec.bxj.model
+    mapper-locations: classpath:mapper/*.xml
+
+mapper:
+    mappers:
+        - com.pxtec.bxj.util.MyMapper
+    not-empty: false
+    identity: MYSQL
+
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
