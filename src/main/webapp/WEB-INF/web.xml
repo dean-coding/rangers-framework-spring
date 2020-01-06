@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+
+    <display-name>rangers-framework</display-name>
+
+    <!-- 核心控制器 -->
+    <servlet>
+        <servlet-name>dkDispatcher</servlet-name>
+        <servlet-class>com.dean.framework.DkDispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:application.properties</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dkDispatcher</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+
+    <!-- 普通servlet的配置 -->
+    <servlet>
+        <servlet-name>general</servlet-name>
+        <servlet-class>com.dean.framework.sample.GeneralAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>general</servlet-name>
+        <url-pattern>/general</url-pattern>
+    </servlet-mapping>
+
+</web-app>
