@@ -103,8 +103,8 @@ Mapping: [/sample/remove.do] ==>public void com.dean.framework.sample.UserAction
 
 ##### 唠唠嗑🐧(企鹅群)
 
-    <image src="static/img/qq_chat.jpg" width="200px" height="250px"></image>
+<image src="static/img/qq_chat.jpg" width="200px" height="250px"></image>
 
 ##### 下午茶🍵(支付宝)
 
-    <image src="static/img/zhifubao-pay.png" width="200px" height="200px"></image>
+<image src="static/img/zhifubao-pay.png" width="200px" height="200px"></image>
