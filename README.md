@@ -47,9 +47,13 @@
 ##### Step3 自定义一些类spring的注解
 
 > @DkController
+
 > @DkService
+
 > @DkAutowired
+
 > @DkRequestMapping
+
 > @DkRequestParam
 
 ##### Step4 配置容器启动时的初始化
@@ -103,9 +107,9 @@ Mapping: [/sample/remove.do] ==>public void com.dean.framework.sample.UserAction
 
 ##### 唠唠嗑🐧(企鹅群)
 
-![image](https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/qq-chat.jpg)
+<image src="static/img/qq_chat.jpg" width="200px" height="250px"></image>
 
 
 ##### 下午茶🍵(支付宝)
 
-![image](https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/zhifubao-pay.png)
+<image src="static/img/zhifubao-pay.png" width="200px" height="200px"></image>
