@@ -103,9 +103,9 @@ Mapping: [/sample/remove.do] ==>public void com.dean.framework.sample.UserAction
 
 ##### 唠唠嗑🐧(企鹅群)
 
-![image]([https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/qq-chat.jpg)](https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/qq-chat.jpg))
+![image](https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/qq-chat.jpg)
 
 
 ##### 下午茶🍵(支付宝)
 
-![image]([https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/zhifubao-pay.png)](https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/zhifubao-pay.png))
+![image](https://gitee.com/venfu/rangers-framework-spring/blob/master/static/img/zhifubao-pay.png)
