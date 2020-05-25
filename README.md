@@ -83,7 +83,7 @@
 
 ```
 
-##### Step6 验证功能
+##### Step7 验证功能
 
 启动日志：
 
@@ -105,10 +105,26 @@ Mapping: [/sample/remove.do] ==>public void com.dean.framework.sample.UserAction
 `http://localhost:8080/sample/query.do?name=Tom`
 
 
-##### 唠唠嗑🐧(企鹅群)
+## 一 针对循环依赖问题的验证：
 
-<image src="static/img/qq-chat.jpg" width="200px" height="250px"></image>
+```asp
+ServiceA跟ServiceB相互依赖问题：
 
-##### 下午茶🍵(支付宝)
+ServiceA
+ -serviceB
 
-<image src="static/img/zhifubao-pay.png" width="200px" height="200px"></image>
+ServiceB
+ -ServiceA
+```
+<image src="static/img/service-call.png" width="400px" height="250px"></image>
+
+
+
+## 唠唠嗑
+
+| 联系我 | 下午茶(微信) | 下午茶(支付宝) |
+| :------: | :------: | :------: |
+| <image src="static/img/wx-personal.jpeg" width="200px" height="250px"></image> | <image src="static/img/wx_pay.jpeg" width="200px" height="250px"></image> | <image src="static/img/zhifubao-pay.png" width="200px" height="200px"></image>
+ | 
+
+

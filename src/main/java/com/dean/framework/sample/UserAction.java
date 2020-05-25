@@ -19,6 +19,20 @@ public class UserAction {
 
     @DkAutowired
     private UserService userService;
+
+    @DkAutowired
+    private ServiceA serviceA;
+
+    @DkRequestMapping("/print.do")
+    public void printA(
+                        HttpServletRequest req, HttpServletResponse resp) {
+        try {
+            resp.getWriter().write(serviceA.print());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     @DkRequestMapping("/add.do")
     public void addUser(@DkRequestParam("name") String name,
                         HttpServletRequest req, HttpServletResponse resp) {
