@@ -124,7 +124,4 @@ ServiceB
 
 | 联系我 | 下午茶(微信) | 下午茶(支付宝) |
 | :------: | :------: | :------: |
-| <image src="static/img/wx-personal.jpeg" width="200px" height="250px"></image> | <image src="static/img/wx_pay.jpeg" width="200px" height="250px"></image> | <image src="static/img/zhifubao-pay.png" width="200px" height="200px"></image>
- | 
-
-
+| <image src="static/img/wx-personal.jpeg" width="200px" height="200px"></image> | <image src="static/img/wx_pay.jpeg" width="200px" height="200px"></image> | <image src="static/img/zhifubao-pay.png" width="200px" height="200px"></image> | 
